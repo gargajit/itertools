@@ -6,12 +6,9 @@ def main():
 
     while True:
         try:
-            country = next(country_iter)
+            print(next(country_iter))
         except StopIteration:
             break
-        else:
-            print(country)
-
 
     
 if __name__ == "__main__":
